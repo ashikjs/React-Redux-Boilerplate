@@ -1,10 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
-/*
- * We need "if(!this.props.user)" because we set state to null by default
- * */
-
 class UserDetail extends Component {
     render() {
         if (!this.props.user) {
