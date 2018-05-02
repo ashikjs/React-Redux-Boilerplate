@@ -1,12 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter as Router} from 'react-router-dom'
+import {Provider} from 'react-redux'
+import {createStore} from 'redux'
+import allReducers from "./reducers"
+import Routes from "./route"
+
+const store = createStore(allReducers)
 const app = document.getElementById('root');
+
+
+
 ReactDOM.render(
     <Router >
-        <div>
-            <h1> React js</h1>
-            <h2> Hello World!!</h2>
+        <Provider store={store}>
+        <div align="center">
+            <Routes />
         </div>
+        </Provider>
     </Router>
     , app);
