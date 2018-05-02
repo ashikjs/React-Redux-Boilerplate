@@ -7,27 +7,58 @@ export default function () {
     return [
         {
             id: 1,
-            first: "Bucky",
-            last: "Roberts",
-            age: 71,
-            description: "Bucky is a React developer and YouTuber",
-            thumbnail: "http://i.imgur.com/7yUvePI.jpg"
+            first: "Lionel",
+            last: "Messi",
+            club: "Barcelona",
+            nationality: "Argentina",
+            position: "Forward",
+            age: 25,
+            description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+            thumbnail: "https://i.imgur.com/iqYFtWk.png"
         },
         {
             id: 2,
-            first: "Joby",
-            last: "Wasilenko",
+            first: "Cristiano",
+            last: "Ronaldo",
+            club: "Real Madrid",
+            nationality: "Portugal",
+            position: "Forward",
             age: 27,
-            description: "Joby loves the Packers, cheese, and turtles.",
-            thumbnail: "http://i.imgur.com/52xRlm8.png"
+            description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+            thumbnail: "https://i.imgur.com/F2ADlRm.png"
         },
         {
             id: 3,
-            first: "Madison",
-            last: "Williams",
-            age: 24,
-            description: "Madi likes her dog but it is really annoying.",
-            thumbnail: "http://i.imgur.com/4EMtxHB.png"
+            first: "Xavi",
+            last: " ",
+            club: "Barcelona",
+            nationality: "Spain",
+            position: "Midfielder",
+            age: 32,
+            description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+            thumbnail: "https://i.imgur.com/9vNeihe.png"
+        },
+        {
+            id: 4,
+            first: "Andres",
+            last: "Iniesta",
+            club: "Barcelona",
+            nationality: "Spain",
+            position: "Midfielder",
+            age: 28,
+            description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+            thumbnail: "https://i.imgur.com/8qbytyW.png"
+        },
+        {
+            id: 5,
+            first: "Zlatan",
+            last: "Ibrahimovic",
+            club: "PSG",
+            nationality: "Sweden",
+            position: "Forward",
+            age: 31,
+            description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+            thumbnail: "https://i.imgur.com/xnKxGMG.png"
         }
     ]
 }

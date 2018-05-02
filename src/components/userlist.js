@@ -4,10 +4,9 @@ import UserDetails from './container/user-detail';
 
 const User = () => (
     <div>
-        <h2>Select a User</h2>
+        <h2>Select a Player</h2>
         <UserList />
         <hr />
-        <br />
         <h2>User Details</h2>
         <UserDetails />
     </div>
